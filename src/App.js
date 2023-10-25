@@ -11,15 +11,15 @@ function App() {
             <Link className="nav-link" to="/">
               Home
             </Link>
-            </li>
-          <li>  
+          </li>
+          <li>
             <Link className="nav-link" to="/greeting">
               Greetings
             </Link>
           </li>
-        </ul>  
-      </div>  
-      
+        </ul>
+      </div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/greeting" element={<Greeting />} />
