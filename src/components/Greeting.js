@@ -9,6 +9,6 @@ export default function Greeting() {
     dispatch(fetchGreeting());
   }, [dispatch]);
   return (
-    <div>{greeting}</div>
+    <h1 className="mt-2 text-center">{greeting}</h1>
   );
 }
